@@ -4,10 +4,15 @@
 
 Our goal for this analysis was analyze all the rideshare data at PyBer from January to early May of 2019 and create a compelling visualization. Our goal with this analyization is to help improve access to ride-sharing services and determine affordability for underserved neighborhoods.
 
+## Resources
+* Python 3.7.13
+* VS Code 1.67.2
+* Jupyter Notebook
+
 ## Results
 As we went through the data, we were able to create a dataframe that clearly showed differences in many metrics based on city type. 
 
-![Metrics by City Type]LINK
+![Metrics by City Type](https://github.com/bessobrien/PyBer_Analysis/blob/main/Analysis/Metrics%20by%20Type.png)
 
 By looking at this data frame we can see the following differences:
 
@@ -23,7 +28,8 @@ By looking at this data frame we can see the following differences:
     * Similar to average fare per ride, urban city types have a higher average fare per driver.
 6. **Total Fare by City Type**
       * Here, when we look at the graph:
-    ![Fare by Type]LINK
+    ![Fare by Type](https://github.com/bessobrien/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
+    
     we see that the urban city types are the highest, but that they have more pronounced peaks, which could indicate events in the cities. For the suburban type, we see one main peak, which could also indicate an event.
 
 ## Summary
